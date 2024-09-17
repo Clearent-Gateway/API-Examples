@@ -1,0 +1,16 @@
+[project]
+name = "clearent-gateway-python-examples"
+version = "0.1.0"
+description = "Python demo of Clearent payment gateway API calls"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "mypy>=1.11.2",
+    "pytest>=8.3.3",
+    "types-requests>=2.32.0.20240914",
+]
